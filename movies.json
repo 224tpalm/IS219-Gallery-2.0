@@ -1,26 +1,12 @@
 [
     {
-          "title": "Miracle",
-          "iscore": 6.8,
-          "rating": "PG",
-          "runtime": 150,
-          "released": [1981, 3, 1],
-          "country": "USA",
-          "posters": ["img/miracleonice.jpeg"],
-          "imdb": "https://www.imdb.com/title/tt0082754/",
-          "website": "https://www.1980miraclehockeyteam.com/",
-          "likes": 1021,
-          "dislikes": 122,
-          "posterindex": 0
-    },
-    {
           "title": "Top Gun Maverick",
           "iscore": 8.2,
           "rating": "PG-13",
           "runtime": 130,
           "released": [2022, 5, 27],
           "country": "USA",
-          "posters": ["img/topgun.jpg"],
+          "posters": ["img/topgun.jpg", "img/maverick"],
           "imdb": "https://www.imdb.com/title/tt1745960/?ref_=nv_sr_srsg_0_tt_7_nm_1_q_top%2520gun",
           "website": "https://www.paramountmovies.com/movies/top-gun-maverick",
           "likes": 928,
@@ -34,7 +20,7 @@
           "runtime": 149,
           "released": [2023, 5, 5],
           "country": "USA",
-          "posters": ["img/guardians.jpg"],
+          "posters": ["img/guardians.jpg", "img/galaxy2"],
           "imdb": "https://www.imdb.com/title/tt6791350/",
           "website": "https://www.marvel.com/movies/guardians-of-the-galaxy-volume-3",
           "likes": 855,
@@ -48,11 +34,25 @@
           "runtime": 88,
           "released": [2022, 7, 1],
           "country": "USA",
-          "posters": ["img/minions.avif"],
+          "posters": ["img/minions3.png", "img/riseofgru2"],
           "imdb": "https://www.imdb.com/title/tt5113044/",
           "website": "https://www.illumination.com/movie/minions/",
           "likes": 828,
           "dislikes": 127,
           "posterindex": 0
-    }
+    },
+    {
+      "title": "Miracle",
+      "iscore": 6.8,
+      "rating": "PG",
+      "runtime": 150,
+      "released": [1981, 3, 1],
+      "country": "USA",
+      "posters": ["img/miracleonice.jpeg", "img/miracle2"],
+      "imdb": "https://www.imdb.com/title/tt0082754/",
+      "website": "https://www.1980miraclehockeyteam.com/",
+      "likes": 1021,
+      "dislikes": 122,
+      "posterindex": 0
+}
 ]

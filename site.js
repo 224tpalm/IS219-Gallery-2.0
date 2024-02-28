@@ -37,7 +37,7 @@ const vue_app = Vue.createApp({
           /* ADD ADDITIONAL VARIABLES FOR STEP 3 HERE */
           Title: "IMDB + Tyler's Top 4 Movies",
           owner: " Tyler",
-          url: "https://github.com/224tpalm/NJIT-3_StarterFiles-master"
+          url: "https://github.com/224tpalm/IS219-Gallery-2.0"
     }
   },
     methods: {
@@ -89,11 +89,10 @@ const vue_app = Vue.createApp({
           posterClick(index) {
                 if (
                       this.movies[index].posterindex >=
-                      this.movies[index].posters.length -1
+                      this.movies[index].posters.length - 1
                 ) {
                       this.movies[index].posterindex = 0
-                }
-                else {
+                } else {
                       this.movies[index].posterIndex++
                 }
           },
