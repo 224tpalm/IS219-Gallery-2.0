@@ -86,23 +86,24 @@ const vue_app = Vue.createApp({
                 return month + ' ' + dateArray[2] + ', ' + dateArray[0]
           }, 
           
-          posterClick(index) {
-                if (
-                      this.movies[index].posterindex >=
-                      this.movies[index].posters.length - 1
-                ) {
-                      this.movies[index].posterindex = 0
-                } else {
-                      this.movies[index].posterIndex++
-                }
+          posterClick (index) {
+            if (
+              this.movies[index].posterindex >=
+              this.movies[index].posters.length - 1
+            ) {
+              this.movies[index].posterindex = 0
+            } else {
+              this.movies[index].posterindex++
+            }
           },
-          
-          timeText (minutes)
-          {
-                return Math.trunc(minutes / 60) + "hours " + (minutes % 60) + "minutes"
+      
+      // Step 7 timeText function a function called “timeText” that accepts the parameter “minutes”. 
+      // It converts “minutes” (an integer) to a String of hours and minutes. 
+          timeText (minutes) {
+            return Math.trunc(minutes / 60) + ' hours ' + (minutes % 60) + ' minutes'
           },
           imageInfo () {}
-    }
-    })
-
-vue_app.mount("#vue_app")
+        }
+      })
+      
+      vue_app.mount('#vue_app')
